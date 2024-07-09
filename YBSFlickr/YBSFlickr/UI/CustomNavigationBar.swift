@@ -11,7 +11,7 @@ struct CustomNavigationBar: View {
     var showBackButton: Bool
     var backAction: (() -> Void)?
     var imageName: String
-
+    
     var body: some View {
         HStack {
             if showBackButton {

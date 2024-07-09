@@ -74,7 +74,7 @@ struct AddTagView: View {
             .padding(.leading, 16)
         }
     }
-
+    
     // Function to calculate the width of a tag based on its text
 
     private func calculateTagWidth(text: String) -> CGFloat {

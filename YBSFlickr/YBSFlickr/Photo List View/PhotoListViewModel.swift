@@ -38,7 +38,7 @@ class PhotoListViewModel: ObservableObject {
      This function constructs the query parameters for the Flickr API search request
      based on the search type (text or username), search tags, and other search settings.
      It then calls the function that performs the search using these parameters.
-    */
+     */
 
     func compositeSearch() {
         var queryItems = [URLQueryItem]()
@@ -96,9 +96,9 @@ class PhotoListViewModel: ObservableObject {
 
     /*
      This function performs a search request to the Flickr API using the provided query items.
-     It constructs the URL from the query items, makes a network request, 
+     It constructs the URL from the query items, makes a network request,
      and decodes the response.
-    */
+     */
 
     private func performSearch(queryItems: [URLQueryItem]) {
         var urlComponents = URLComponents()

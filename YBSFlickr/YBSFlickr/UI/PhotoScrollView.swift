@@ -10,7 +10,7 @@ import SwiftUI
 struct PhotoScrollView: View {
     @ObservedObject var viewModel: PhotoListViewModel
     @Binding var viewMode: ViewMode
-
+    
     var body: some View {
         ScrollView {
             if viewMode == .grid {

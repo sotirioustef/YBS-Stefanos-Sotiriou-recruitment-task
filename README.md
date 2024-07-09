@@ -6,7 +6,8 @@ is a native iOS mobile app developed using Swift and SwiftUI that interacts with
 ### Features
 
 - **Default Search:** On the initial load, the app searches for "Yorkshire" and sets safe search to "safe."
-- **Photo List Display:** Shows a list of photos with the poster's user ID, user icon, and associated tags.
+- **Photo List Display:** Shows a list of photos with the poster's user ID, user icon, user name and associated tags.
+- **Photo Grid Display:** Shows a list of photos split into two columns with the poster's user ID and user icon and user name.(Tags are omitted here to keep the UI clean and less cluttered).
 ![Mockup](/PhotoListView.png) ![Mockup](/PhotoGridView.png)
 
 - **Search by Tags:** Users can search for photos by tag or lists of tags, specifying whether a photo should contain all or some of the tags.
