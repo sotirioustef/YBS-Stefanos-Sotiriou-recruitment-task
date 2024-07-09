@@ -15,9 +15,7 @@ is a native iOS mobile app developed using Swift and SwiftUI that interacts with
 - **Search by Tags:** Users can search for photos by tag or lists of tags, specifying whether a photo should contain all or some of the tags.
 - **Search by Username:** Users can search for photos by a user's username.
 - **Dynamic Tag Display:** Tags dynamically adjust their width based on the text and wrap to the next line when necessary.
-
 ![Mockup](/TagView.png)
-![Mockup](/SearchTypeMenu.png)
 
 - **Photo Details View:** Allows users to tap on a photo to view more details.
 - **User Photos:** Users can tap on a user ID/photo to view more photos by that user.
